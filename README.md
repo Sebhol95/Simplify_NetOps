@@ -18,7 +18,16 @@ Using linux we can create a folder ```mkdir xxxx``` when we know the folders loc
 **4:** at last we need to use the bashrc from the folder by typing ```. .bashrc```
 
 ## How it works
-Yet to come... 
+Using netmiko we are able to establish connection the the targets by using the secure shell (SSH). The code the use the modules netmiko has in store like ```net_connect.send_command_expect``` ```net_connect = ConnectHandler(**device)``` and more. 
+```
+device = {
+        'device_type': 'cisco_ios',
+        'ip': ip_address,
+        'username': username,
+        'password': password,
+        'port': 22,
+        }
+```
 
 ## Code Example
 Yet to come...
