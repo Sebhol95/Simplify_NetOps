@@ -19,8 +19,8 @@ Using linux we can create a folder ```mkdir xxxx``` when we know the folders loc
 
 ## How it works
 Using netmiko we are able to establish connection the the targets by using the secure shell (SSH). The code the use the modules netmiko has in store like ```net_connect.send_command_expect``` ```net_connect = ConnectHandler(**device)``` and more. 
-```
-from netmiko import ConnectHandler
+
+```from netmiko import ConnectHandler
 
 device = {
         'device_type': 'cisco_ios',
