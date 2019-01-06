@@ -4,7 +4,7 @@
 This repository is created to effectively gather information between two Cisco nodes. The aim is to automaticaly gather the loopback address of the neighbor and interface information like the interface description and status of the link. 
 
 ## Status 
-[ASR9000 & ASR9000v2](https://github.com/Sebhol95/Network_SEC_project/tree/master/Documentation/TACACS) Input/CRC + dampening collection (up-to 17 satellittes)
+[ASR9000 & ASR9000v2](https://github.com/Sebhol95/Simplify_NetOps/tree/master/ASR9000_ASR9000v2/Input_CRC_and_dampening) Input/CRC + dampening collection (up-to 17 satellittes)
 
 ## Installation and use
 Using linux we can create a folder ```mkdir xxxx``` when we know the folders location we can start implementing the scripts. The code/s are buildt upon one main and sidescripts, alle we need to do is the following: 
