@@ -1,7 +1,7 @@
 ![alt text](https://imgur.com/LxImKqy.png)
 
 ## Project
-This repository is created to effectively gather information between two Cisco nodes. The aim is to automaticaly gather the loopback address of the neighbor and interface information like the interface description and status of the link. 
+This repository is created to effectively gather information of Cisco ASR9000, ASR9000v2, IOS-XR , IOS and other nodes. By doing so the repo is divided by their version and the different dumps they produce. 
 
 ## Status 
 [ASR9000 & ASR9000v2](https://github.com/Sebhol95/Simplify_NetOps/tree/master/ASR9000_ASR9000v2/Input_CRC_and_dampening) Input/CRC + dampening collection (up-to 17 satellittes)
