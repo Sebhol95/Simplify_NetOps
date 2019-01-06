@@ -32,6 +32,7 @@ device = {
 ```
 
 ## Code Example
+Remember that it is allways safer to use the module getpass since you then dont need to hardcode the username/password into the script, which again makes it a security risk. 
 ```
 #!/usr/bin/env python
 
