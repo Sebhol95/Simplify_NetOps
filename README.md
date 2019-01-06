@@ -32,4 +32,26 @@ device = {
 ```
 
 ## Code Example
-Yet to come...
+```
+#!/usr/bin/env python
+
+from netmiko import ConnectHandler
+import getpass
+
+ip_address = raw_input("Enter IP address: ")
+username = raw_input("Enter username: ")
+password = getpass.getpass ("Enter password: ")
+
+device = {
+        'device_type': 'cisco_ios',
+        'ip': ip_address,
+        'username': username,
+        'password': password,
+        'port': 22,
+        }
+net_connect = ConnectHandler(**device)
+
+print ("Checking Satellite 100 for input/crc error counters ...")
+output1 = net_connect.send_command_expect('sh int Gi100/0/0/0 | i err')
+print ("Interface Gi100/0/0/0")
+print (output1)
