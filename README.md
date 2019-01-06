@@ -13,7 +13,7 @@ Using linux we can create a folder ```mkdir xxxx``` when we know the folders loc
 
 2: go into bashrc and create a alias for you'r excecutable script ```nano .bashrc``` and enter an alias ```alias = main/home/somefolder/thecreatedfolder/scriptname``` you need to create an alias for all the scripts in the folder. 
 
-3: then make them excecutable with ```chmod +x filename```
+3: then make them excecutable with ```chmod +x filename``` you also need to do this for all the scripts.
 
 4: at last we need to use the bashrc from the folder by typing ```. .bashrc```
 
