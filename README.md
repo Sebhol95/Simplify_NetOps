@@ -7,7 +7,12 @@ This repository is created to effectively gather information between two Cisco n
 Yet to come.. 
 
 ## Installation and use
-Using linux we can create a folder ```mkdir xxxx``` from there you can input the codes you want to run. The codes are based upon a main and sidescripts meaning you are able to only execute the main script and it automatically call the sidescripts. 
+Using linux we can create a folder ```mkdir xxxx``` when we know the folders location we can start implementing the scripts. The code/s are buildt upon one main and sidescripts, alle we need to do is the following: 
+
+1: Go the the folder you created ''' cd /home/somefolder/thecreatedfolder'''
+2: go into bashrc and create a alias for you'r excecutable script '''nano .bashrc''' and enter an alias ''' alias = main/home/somefolder/thecreatedfolder/scriptname''' you need to create an alias for all the scripts in the folder. 
+3: then make them excecutable with '''chmod +x filename''' 
+4: last we need to use the bashrc from the folder by typing '''. .bashrc'''
 
 ## How it works
 Yet to come... 
