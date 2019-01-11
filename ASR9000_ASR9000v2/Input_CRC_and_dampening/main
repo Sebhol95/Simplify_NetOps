@@ -1,3 +1,62 @@
 #!/usr/bin/env python
 
-print ('test')
+from netmiko import ConnectHandler
+import getpass
+from subprocess import call
+
+def satsjekk ():
+        print ("")
+        sjekk = raw_input('How many satellittes to check? ') 
+
+        if sjekk == "1":
+                call(["python", "sat100.py"])                            
+
+        elif sjekk == "2":
+                call(["python", "sat101.py"])
+
+        elif sjekk == "3":
+                call(["python", "sat102.py"])
+
+        elif sjekk == "4":
+                call(["python", "sat103.py"]) 
+
+        elif sjekk == "5":
+                call(["python", "sat104.py"])
+
+        elif sjekk == "6":
+                call(["python", "sat105.py"])
+
+        elif sjekk == "7":
+                call(["python", "sat106.py"])
+
+        elif sjekk == "8":
+                call(["python", "sat107.py"])
+
+        elif sjekk == "9":
+                call(["python", "sat108.py"])
+
+        elif sjekk == "10":
+                call(["python", "sat109.py"])
+
+        elif sjekk == "11": 
+                call(["python", "sat110.py"])
+
+        elif sjekk == "12":
+                call(["python", "sat111.py"])
+
+        elif sjekk == "13":
+                call(["python", "sat112.py"])
+
+        elif sjekk == "14":
+                call(["python", "sat113.py"])
+
+        elif sjekk == "15":
+                call(["python", "sat114.py"])
+
+        elif sjekk == "16":
+                call(["python", "sat115.py"])
+
+        elif sjekk == "17":
+                call(["python", "sat116.py"])
+
+satsjekk()
