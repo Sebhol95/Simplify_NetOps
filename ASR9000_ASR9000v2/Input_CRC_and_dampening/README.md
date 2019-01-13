@@ -1,7 +1,7 @@
 ![alt text](https://imgur.com/LxImKqy.png)
 
 ## How to use
-First we need to clone this repo, by logging into our linux machine we can do so with : ```git clone https://github.com/Sebhol95/Simplify_NetOps/ASR9000_ASR9000v2/Input_CRC_and_dampening``` we then has access to the script. It is used by running the main and uses subproccesses to call the sat scripts. just run the main and see under to get an example. 
+First we need to clone this repo, by logging into our linux machine we can do so with : ```git clone https://github.com/Sebhol95/Simplify_NetOps/ASR9000_ASR9000v2/Input_CRC_and_dampening```. just run the main and see under to get an example. 
 
 ## Example of use
 ```
