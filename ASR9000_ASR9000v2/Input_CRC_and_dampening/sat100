@@ -17,7 +17,7 @@ device = {
 net_connect = ConnectHandler(**device)
 
 print ("")
-print ("Sjekker Satellite 100 for input/crc feil ...")
+print ("Checking Satellite 100 for input/crc feil ...")
 output1 = net_connect.send_command_expect('sh int Gi100/0/0/0 | i err')
 output2 = net_connect.send_command_expect('sh int Gi100/0/0/1 | i err')
 output3 = net_connect.send_command_expect('sh int Gi100/0/0/2 | i err')
