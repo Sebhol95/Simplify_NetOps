@@ -28,5 +28,4 @@ Fri Jan  x 22:33:50.916 CET
      
      
 And it continues to interface Gi100/0/0/43 and does a new round with dampening. 
-
 ```
