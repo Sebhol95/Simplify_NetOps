@@ -27,5 +27,5 @@ Fri Jan  x 22:33:50.916 CET
      x output errors, x underruns, x applique, x resets
      
      
-And it continues to interface Gi100/0/0/43 and does a new round with dampening. 
+And it continues to interface Gi100/0/0/43 then a new round with dampening. 
 ```
